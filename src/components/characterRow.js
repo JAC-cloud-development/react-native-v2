@@ -10,6 +10,7 @@ export const CharacterRow = ({character, onPress}) => {
         <Text style={styles.name}>{character.name}</Text>
         <Text>{character.gender}</Text>
         <Text>{character.species}</Text>
+        <Text>{character.status}</Text>
       </View>
     </Pressable>
   );
